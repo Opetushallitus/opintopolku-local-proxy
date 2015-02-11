@@ -1,0 +1,16 @@
+{
+  "name": "proxy",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "http",
+    "proxy"
+  ],
+  "dependencies": {
+    "http-proxy": "1.8.1"
+  },
+  "os": [
+    "linux",
+    "macos"
+  ]
+}
