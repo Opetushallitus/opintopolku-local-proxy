@@ -1,11 +1,14 @@
+#!/usr/bin/env node
 var http = require('http'),
     httpProxy = require('http-proxy')
 
 var lookupTable = {
  "default": "http://localhost:9090", // we want to get fast 404 for example to "/virkailija-raamit/"
  "haku-app": 'http://localhost:9090',
- "ao": 'https://testi.opintopolku.fi',
- "lop" : "https://testi.opintopolku.fi"
+ "ao": "https://itest-oppija.oph.ware.fi",
+ "lop" : "https://itest-oppija.oph.ware.fi",
+ "virkailija-raamit" : "https://itest-virkailija.oph.ware.fi",
+ "cas" : "https://itest-virkailija.oph.ware.fi"
 }
 
 /*

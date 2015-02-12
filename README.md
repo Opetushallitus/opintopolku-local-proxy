@@ -5,8 +5,8 @@
 
 	install node & npm
 	get dependecies: "npm install"
-	configure services to file: "server/proxy.js"
-	run: "node server/proxy.js"
+	configure services to file: "proxy.js"
+	run: "./proxy.js"
 	goto: http://localhost:8080/your-app
 
 
