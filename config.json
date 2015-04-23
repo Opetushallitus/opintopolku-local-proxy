@@ -1,0 +1,11 @@
+{
+  "port": 9090,
+  "lookupTable": {
+    "default": "http://localhost:9090",
+    "haku-app": "http://localhost:9090",
+    "ao": "https://itest-oppija.oph.ware.fi",
+    "lop" : "https://itest-oppija.oph.ware.fi",
+    "virkailija-raamit" : "https://itest-virkailija.oph.ware.fi",
+    "cas" : "https://itest-virkailija.oph.ware.fi"
+  }
+}
