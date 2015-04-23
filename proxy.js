@@ -4,7 +4,7 @@ var http = require('http'),
     fs = require('fs');
 
 
-var configFile = process.argv[2] || "config.json";
+var configFile = process.argv[2] || __dirname + "/config.json";
 
 var config = JSON.parse(fs.readFileSync(configFile, 'utf-8'));
 var lookupTable = config.lookupTable;
