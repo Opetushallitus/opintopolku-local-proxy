@@ -1,5 +1,5 @@
 {
-  "port": 9090,
+  "port": 8080,
   "lookupTable": {
     "default": "http://localhost:9090",
     "haku-app": "http://localhost:9090",
