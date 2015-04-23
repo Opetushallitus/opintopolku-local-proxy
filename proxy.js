@@ -4,12 +4,17 @@ var http = require('http'),
     fs = require('fs');
 
 
-var configFile = process.argv[2] || __dirname + "/config.json";
+var configFile = process.argv[2] || "oph-proxy-config.json";
+console.log("Using configuration file " + configFile);
+
+if (!fs.existsSync(configFile)) {
+  console.log("Config file not found!")
+  process.exit(1)
+}
 
 var config = JSON.parse(fs.readFileSync(configFile, 'utf-8'));
 var lookupTable = config.lookupTable;
 
-console.log("Using configuration file " + configFile);
 console.log(config)
 
 var proxy = httpProxy.createProxyServer({})
