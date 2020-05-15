@@ -7,7 +7,7 @@
     "proxy"
   ],
   "dependencies": {
-    "http-proxy": "1.8.1"
+    "http-proxy": "1.18.0"
   },
   "os": [
     "linux",
